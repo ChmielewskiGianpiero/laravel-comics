@@ -9,5 +9,14 @@
 </head>
 <body>
     
+    {{-- header --}}
+    @include('partials.header')
+
+    <main>
+        @yield('content')
+    </main>
+
+    {{-- footer --}}
+    @include('partials.footer')
 </body>
 </html>
